@@ -1,28 +1,26 @@
-﻿{
+{
+  "profiles": {
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Profile 1": {
+      "commandName": "IISExpress"
+    },
+    "Profile 2": {
+      "commandName": "Project",
+      "commandLineArgs": "EmprestimoLivro\r\n",
+      "workingDirectory": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro",
+      "launchUrl": "http://localhost:27457",
+      "applicationUrl": "http://localhost:27457"
+    }
+  },
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
       "applicationUrl": "http://localhost:27457",
       "sslPort": 44376
-    }
-  },
-  "profiles": {
-    "EmprestimoLivro": {
-      "commandName": "Project",
-      "dotnetRunMessages": true,
-      "launchBrowser": true,
-      "applicationUrl": "https://localhost:7233;http://localhost:5082",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
     }
   }
 }

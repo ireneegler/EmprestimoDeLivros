@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EmprestimoLivro.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\darklyBootstrap.css",
+      "PackagePath": "staticwebassets\\css\\darklyBootstrap.css"
+    },
+    {
       "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
