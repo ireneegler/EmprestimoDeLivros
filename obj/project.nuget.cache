@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2QWy9nX0IR4bGjh3SsG4ZbeQM02VEt7PYKhJNz+9PFWum1PI0rz02pejAdxSRphKICBZZq/Bq4+7oqpv5k5Ngg==",
+  "dgSpecHash": "RK4t7oIU/RZKJtB+SRdXwHn6B6ikz6wk29M8Wfo4WPni+CQwceKa1+OOWHJ4UznnyWSggzxPYkjf0cPHNW5ysg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\EmprestimoLivro.csproj",
   "expectedPackageFiles": [
@@ -200,7 +200,10 @@
     "C:\\Users\\Irene\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Irene\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\Irene\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Irene\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Irene\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Irene\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512",
+    "C:\\Users\\Irene\\.nuget\\packages\\xunit.extensibility.core\\2.4.2\\xunit.extensibility.core.2.4.2.nupkg.sha512",
+    "C:\\Users\\Irene\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512"
   ],
   "logs": []
 }

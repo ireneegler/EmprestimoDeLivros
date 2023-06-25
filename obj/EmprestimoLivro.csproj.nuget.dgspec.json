@@ -79,6 +79,14 @@
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.33, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.extensibility.execution": {
+              "target": "Package",
+              "version": "[2.4.2, )"
             }
           },
           "imports": [
