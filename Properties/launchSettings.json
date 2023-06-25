@@ -11,8 +11,11 @@
       "commandName": "Project",
       "commandLineArgs": "EmprestimoLivro\r\n",
       "workingDirectory": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro",
+      "launchBrowser": true,
       "launchUrl": "http://localhost:27457",
-      "applicationUrl": "http://localhost:27457"
+      "applicationUrl": "http://localhost:27457",
+      "nativeDebugging": true,
+      "sqlDebugging": true
     }
   },
   "iisSettings": {
