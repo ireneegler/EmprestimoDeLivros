@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RX6+vq0y7XragmQ25UzeqUDI8Xg7i3tGR/WYHta8kiM=",
+  "Hash": "w9OjwMCkWMnZsCGjbDcVN5JK7ZaXqpCr7rzcnyBsNHU=",
   "Source": "EmprestimoLivro",
   "BasePath": "_content/EmprestimoLivro",
   "Mode": "Default",
@@ -1071,23 +1071,6 @@
       "OriginalItemSpec": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EmprestimoLivro.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\darklyBootstrap.css",
-      "SourceId": "EmprestimoLivro",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\",
-      "BasePath": "_content/EmprestimoLivro",
-      "RelativePath": "css/darklyBootstrap.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\darklyBootstrap.css"
-    },
-    {
       "Identity": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\site.css",
       "SourceId": "EmprestimoLivro",
       "SourceType": "Discovered",
@@ -1105,6 +1088,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\Sketchybootstrap.css",
+      "SourceId": "EmprestimoLivro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\",
+      "BasePath": "_content/EmprestimoLivro",
+      "RelativePath": "css/Sketchybootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Sketchybootstrap.css"
+    },
+    {
       "Identity": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\favicon.ico",
       "SourceId": "EmprestimoLivro",
       "SourceType": "Discovered",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\img\\book.png",
+      "SourceId": "EmprestimoLivro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\",
+      "BasePath": "_content/EmprestimoLivro",
+      "RelativePath": "img/book.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\book.png"
     },
     {
       "Identity": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\js\\site.js",

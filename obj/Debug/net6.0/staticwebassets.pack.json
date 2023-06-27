@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets\\EmprestimoLivro.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\darklyBootstrap.css",
-      "PackagePath": "staticwebassets\\css\\darklyBootstrap.css"
+      "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\Sketchybootstrap.css",
+      "PackagePath": "staticwebassets\\css\\Sketchybootstrap.css"
     },
     {
       "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\css\\site.css",
@@ -15,6 +15,10 @@
     {
       "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\img\\book.png",
+      "PackagePath": "staticwebassets\\img\\book.png"
     },
     {
       "Id": "C:\\Users\\Irene\\Desktop\\ProjetoASP.NET\\EmprestimoLivro\\wwwroot\\js\\site.js",
