@@ -1,6 +1,8 @@
-﻿using EmprestimoLivro.Data;
+﻿using AspNetCore;
+using EmprestimoLivro.Data;
 using EmprestimoLivro.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.VisualBasic.Syntax;
 
 namespace EmprestimoLivro.Controllers
 {
@@ -24,7 +26,7 @@ namespace EmprestimoLivro.Controllers
         }
 
         [HttpGet]
-        public IActionResult Editar(int? id)
+        public IActionResult Editar(int id)
         {
             if(id == null || id == 0)
             {
@@ -41,7 +43,7 @@ namespace EmprestimoLivro.Controllers
         }
 
         [HttpGet]
-        public IActionResult Excluir(int? id)
+        public IActionResult Excluir(int id)
         {
             if (id == null || id == 0)
             {
@@ -59,15 +61,19 @@ namespace EmprestimoLivro.Controllers
         [HttpPost]
         public IActionResult Cadastrar(EmprestimosModel emprestimos)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _db.Emprestimos.Add(emprestimos);
                 _db.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+
                 return RedirectToAction("Index");
             }
+ 
+                TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!"; 
 
-            return View(); 
+            return View();
         }
 
         [HttpPost]
@@ -78,8 +84,13 @@ namespace EmprestimoLivro.Controllers
                 _db.Emprestimos.Update(emprestimo);
                 _db.SaveChanges();
 
+                TempData["MensagemSucesso"] = "Editado com sucesso!";
+
                 return RedirectToAction("Index");
             }
+
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição!";
+
             return View(emprestimo);
         }
 
@@ -92,6 +103,14 @@ namespace EmprestimoLivro.Controllers
             }
             _db.Emprestimos.Remove(emprestimo);
             _db.SaveChanges();
+
+            TempData["MensagemSucesso"] = "Excluído com sucesso!";
+
+            if ("MensagemSucesso" == null)
+            {
+                TempData["MensagemErro"] = "Algum erro ocorreu ao realizar ao excluir!";
+            }
+
 
             return RedirectToAction("Index");
         }
